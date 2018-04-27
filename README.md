@@ -20,7 +20,6 @@ Within this package you'll find:
 * a `controller.php` file - this file defines the package details and what it installs
 * a `themes` folder - this is where the theme folder is stored
 * an `icon.png` file - a 97px by 97px png graphic, which is displayed against the package within the dashboard
-* a `blocks` folder - this optional folder is used to include additional block templates with the package
 
 ## Next step
 For now, note the name of the package folder itself, `anatomy_theme`, which is two lowercase words seperated by an underscore.
