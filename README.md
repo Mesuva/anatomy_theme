@@ -1,6 +1,6 @@
 # Anatomy of a concrete5 theme - Overview
 
-This concrete5 package has been developed to be a clear and highly commented example of how to structure a concrete5 _theme_, using up-to-date practices.
+This concrete5 package has been developed to be a clear and highly commented example of how to create a basic concrete5 package, as well as a concrete5 _theme_, using up-to-date practices.
 
 The package could be used as the starting point for a new theme add-on, or simply referred to for learning purposes.
 
