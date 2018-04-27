@@ -38,8 +38,10 @@ class PageTheme extends Theme
     }
 
     /**
-     * This is a commonly used function used to automatically include commonly used scripts
-     *
+     * This is a function used to automatically include commonly used scripts
+     * If you are creating a theme that requires jQuery for example, you would tell concrete5 that your theme requires it here.
+     * Requiring an asset prevents the same script from being loaded twice, avoiding conflicts and other errors.  
+     *    
      * In the commented out example below, jquery is included, as well as the css scripts for font-awesome
      * Refer to https://documentation.concrete5.org/developers/appendix/asset-list for a complete list of assets that
      * be included
