@@ -1,7 +1,7 @@
 <?php
 /**
  * This element file is used to complete the HTML page. It outputs another global area and then closes the div that
- * wa
+ * was initially opened in the header element file. 
  */
 ?>
 <?php defined('C5_EXECUTE') or die("Access Denied."); ?>
