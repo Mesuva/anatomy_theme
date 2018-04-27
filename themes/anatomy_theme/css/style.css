@@ -1,0 +1,54 @@
+/*
+This is an example css file that is linked to via the elements/header.php file
+
+You can either directly write plain CSS here or look to use tools such as Less or Sass to build up your styles, using a
+process that suits your requirements.
+
+You are not limited to one stylesheet, you can link as many as you wish in your theme.
+
+General best practice is to look to combine your css scripts into few as possible, to minimum the number of files to
+download.
+
+
+Styling tips
+------
+
+To avoid unwanted styling of concrete5's interface elements, such as the toolbar or block panels, it is strongly
+recommended to prefix element or generic class styles with a prefix. Concrete5 automatically added
+the class ccm-page to to the top level wrapping div and this is suitable for such prefixing purposes.
+
+For example, avoid broad styles such as this:
+
+h2, a  {
+    color: red;
+}
+
+.container {
+    padding: 20px;
+}
+
+Instead, prefix these with a class from a wrapping div:
+
+.ccm-page h2, .ccm-page a {
+    color: red;
+}
+
+.ccm-page .container {
+    padding: 20px;
+}
+
+
+There are additional automatic classes that are output on the wrapping div, you will see a class for the page type such
+as page-type-page, and one for the page template, such as page-template-full. The handle of the page and template is
+used in these classes. These are useful for targeting specific styling on both page types and templates.
+
+ Another useful class that is automatically added to the HTML tag is ccm-toolbar-visible
+ This can be used if you need to adjust your styles while the concrete5 toolbar is visible.
+
+ Also automatically added to the HTML tag is the class ccm-edit-mode, when the page is placed in edit mode.
+
+ Final Step
+
+ Open the js/scripts.js file and review its comments
+
+*/
