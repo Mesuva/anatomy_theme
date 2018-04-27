@@ -9,7 +9,7 @@ The theme outlined is intentionally very simple, and does not utilise more advan
 ## Location within concrete5's directory and installation
 
 Packages such as this one are placed within the top level `packages` directory and are installed via the 'Extend Functionality' dashboard page.
-A newly installed theme isn't not automatically applied to a site, it can be applied via the 'Activate' button witin the Pages & Themes section of the dashboard
+A newly installed theme is not automatically applied to a site, it can be applied via the 'Activate' button witin the Pages & Themes section of the dashboard
 
 If you have downloaded this package from github, the package folder may have been labelled `anatomy_theme-master` - ensure that you rename the folder to just `anatomy_theme` before attempting to install it.
 
