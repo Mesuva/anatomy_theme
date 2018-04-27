@@ -6,7 +6,7 @@ approaches to developing a concrete5 theme, but the core requirements remain the
 ## Theme structure
 
 As a minimum, a theme requires the following files:
-* a `page_theme.php` file - this is used to define the theme details
+* a `page_theme.php` file - this is used to define the theme details, such as its name and description
 * a `default.php` file - this is the default template used by the theme
 * a `view.php` file - this is used as the template for 'single pages' (explained within the file)
 
