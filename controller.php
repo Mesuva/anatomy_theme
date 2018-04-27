@@ -5,8 +5,6 @@
  * installing any components the package contains.
  *
  * In this case the package installs a new theme and requires only a few lines of code to do so.
- *
- * When creating your own theme package
  */
 
 /**
@@ -53,9 +51,9 @@ class Controller extends Package
      * follow a MAJOR.MINOR.PATCH conversion. For example, increment the major number for large scale changes to your
      * package, the minor number for new features, and the patch number for bug fixes or minor updates.
      *
-     * A further convension is to keep the major version number a zero while the package is in development.
+     * A further convention is to keep the major version number a zero while the package is in development.
      *
-     * Increments of any value with allow a package upgrade to be triggered via the dashboard.
+     * Increments of any value will allow a package upgrade to be triggered via the dashboard.
      */
     protected $pkgVersion = '0.5.1';
 
