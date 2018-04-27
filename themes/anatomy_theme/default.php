@@ -4,7 +4,7 @@
  * As this file is called default.php, it is used whenever a specific template isn't selected for a page (or can't be
  * found).
  *
- * Other template files will be structured the same as this file, but may have additional HTML and/or editable area.
+ * Other template files will be structured the same as this file, but may have additional HTML and/or editable areas.
  * Concrete5 themes commonly have a 'full.php' file, to indicate a full width template. You may also commonly see
  * 'left_sidebar.php' and 'right_sidebar.php' templates within a theme.
  */
@@ -14,21 +14,21 @@
  * It should be included as the first line of any PHP file you create, such as template and element files in your theme
  *
  * The only places it can be ommitted are in files that define classes, such as the package controller.php and
- * page_theme.php. Including at in those files is harmless, however.
+ * page_theme.php. Including it in those files is harmless, however.
  */
 
 defined('C5_EXECUTE') or die("Access Denied.");
 
 /**
  * The next line includes the header.php file from the elements folder within the theme.
- * Within this file you will find the very start HTML of a typical web page, along with code to include certain
+ * Within this file you will find the the typical HTML that starts a webpage, along with code to include certain
  * concrete5 components. By keeping this common code in it's own file, it can be used across different page templates.
  */
 
 $this->inc('elements/header.php');
 
 /**
- * At this point of the template file you are within the 'body' of the page tempalte. This is where you would expect to
+ * At this point of the template file you are within the 'body' of the page template. This is where you would expect to
  * output unique page content. You can exit a PHP block and include structural HTML such as div, article, main, etc, to
  * wrap the output of your editable area
  */
@@ -40,7 +40,7 @@ $this->inc('elements/header.php');
 
     /**
      * The following is an example of defining an editable area, where blocks can be placed.
-     * The convension is to always have a 'Main' area in your theme, however, you can call the area whatever name you
+     * The convention is to always have a 'Main' area in each one of your themes templates, however, you can call the area whatever name you
      * wish. You can also create multiple editable areas in your template file (and your element files)
      */
 
@@ -67,7 +67,7 @@ $this->inc('elements/header.php');
 <?php
 
 /**
- * In the same was as the header element, a footer element is regularly included in a page template
+ * In the same way as the header element, a footer element is regularly included in a page template
  */
 $this->inc('elements/footer.php');
 
