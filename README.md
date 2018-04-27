@@ -4,7 +4,7 @@ This concrete5 package has been developed to be a clear and highly commented exa
 
 The package could be used as the starting point for a new theme add-on, or simply referred to for learning purposes.
 
-The theme outlined is intentionally very simple, and does not utilise more advanced themeing features such as editable theme settings/colors. Is is a complete example however, and requires no more than basic CSS and HTML skills to extend and use for custom purposes.
+The theme outlined is intentionally very simple, and does not utilise more advanced theming features such as editable theme settings/colors. Is is a complete example however, and requires no more than basic CSS and HTML skills to extend and use for custom purposes.
 
 ## Location within concrete5's directory and installation
 
