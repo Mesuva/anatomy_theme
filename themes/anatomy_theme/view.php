@@ -4,7 +4,8 @@
  * a page type associated with them.
  *
  * Structually this file will look similar to the default.php file, except instead of an editable area, a system_errors
- * element is included, as well as the value of $innerContent is output.
+ * element is included, as well as the value of $innerContent is output. $innerContent is automatically populated with the 
+ *page contents the single page needs to output.
  */
 
 defined('C5_EXECUTE') or die("Access Denied."); ?>
@@ -15,7 +16,7 @@ $this->inc('elements/header.php'); ?>
 <?php
 /**
  * The element and $innerContent lines below are for single pages to output their specific content.
- * View these lines the same as the 'Main' editable area of a templte.
+ * View these lines the same as the 'Main' editable area of a template.
  */
 View::element('system_errors', [
     'format' => 'block',
