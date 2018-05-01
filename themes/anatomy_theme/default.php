@@ -40,8 +40,8 @@ $this->inc('elements/header.php');
 
     /**
      * The following is an example of defining an editable area, where blocks can be placed.
-     * The convention is to always have a 'Main' area in each one of your themes templates, however, you can call the area whatever name you
-     * wish. You can also create multiple editable areas in your template file (and your element files)
+     * The convention is to always have a 'Main' area in each one of your themes templates, however, you can call the 
+     * area whatever name you wish. You can also create multiple editable areas in your template and element files
      */
 
     $a = new Area('Main');
