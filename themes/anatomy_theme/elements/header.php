@@ -62,5 +62,5 @@
 /**
  * Next step
  *
- * Open the `view.php` file and review its comments.
+ * Open the `footer.php` file and review its comments.
  */
