@@ -35,5 +35,5 @@ $this->inc('elements/footer.php');
 /**
  * Next step
  *
- * Open the `footer.php` file in the elements folder and review its comments.
+ * Open the style.css file within the css directory and review its comments
  */
