@@ -36,5 +36,5 @@ View::element('footer_required'); ?>
 /**
  * Next step
  *
- * Open the style.css file within the css directory and review its comments
+ * Open the view.php file and review its comments
  */
