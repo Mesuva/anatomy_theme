@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This is a concrete5 package controller file. It is responsible for defining the details of the package as well as
+ * This is a Concrete CMS package controller file. It is responsible for defining the details of the package as well as
  * installing any components the package contains.
  *
  * In this case the package installs a new theme and requires only a few lines of code to do so.
@@ -20,7 +20,7 @@ namespace Concrete\Package\AnatomyTheme;
 /**
  * Use statements in code are used to specify particular files/classes to use
  *
- * In this case, the following two use statements tell the code to use Package and Theme classes from concrete5's core
+ * In this case, the following two use statements tell the code to use Package and Theme classes from Concrete CMS's core
  * Simply leave these in place
  */
 
@@ -29,7 +29,7 @@ use Concrete\Core\Page\Theme\Theme;
 
 
 /**
- * A concrete5 controller file is a PHP class
+ * A Concrete CMS controller file is a PHP class
  */
 class Controller extends Package
 {
@@ -41,8 +41,8 @@ class Controller extends Package
     protected $pkgHandle = 'anatomy_theme';
 
     /**
-     * This line sets the minimum required version of concrete5 for your package. Theme packages generally don't need to
-     * target specific versions of concrete5 unless they are using very new features.
+     * This line sets the minimum required version of Concrete CMS for your package. Theme packages generally don't need to
+     * target specific versions of Concrete CMS unless they are using very new features.
      */
     protected $appVersionRequired = '8.0';
 
@@ -73,7 +73,7 @@ class Controller extends Package
      */
     public function getPackageDescription()
     {
-        return t('A package to illustrate the files and structure of a typical concrete5 theme');
+        return t('A package to illustrate the files and structure of a typical Concrete CMS theme');
     }
 
     /**
