@@ -1,12 +1,12 @@
-# Anatomy of a concrete5 theme - Overview
+# Anatomy of a Concrete CMS theme - Overview
 
-This concrete5 package has been developed to be a clear and highly commented example of how to create a basic concrete5 package, as well as a concrete5 _theme_, using up-to-date practices.
+This Concrete CMS package has been developed to be a clear and highly commented example of how to create a basic Concrete CMS package, as well as a Concrete CMS _theme_, using up-to-date practices.
 
 The package could be used as the starting point for a new theme add-on, or simply referred to for learning purposes.
 
 The theme outlined is intentionally very simple, and does not utilise more advanced theming features such as editable theme settings/colors. Is is a complete example however, and requires no more than basic CSS and HTML skills to extend and use for custom purposes.
 
-## Location within concrete5's directory and installation
+## Location within Concrete CMS's directory and installation
 
 Packages such as this one are placed within the top level `packages` directory and are installed via the 'Extend Functionality' dashboard page.
 A newly installed theme is not automatically applied to a site, it can be applied via the 'Activate' button witin the Pages & Themes section of the dashboard
