@@ -1,7 +1,7 @@
-# Anatomy of a concrete5 theme - Theme structure
+# Anatomy of a Concrete CMS theme - Theme structure
 
-The following is an outline of a minimal, but complete, concrete5 theme. Like web development in general, there are many
-approaches to developing a concrete5 theme, but the core requirements remain the same.
+The following is an outline of a minimal, but complete, Concrete CMS theme. Like web development in general, there are many
+approaches to developing a theme, but the core requirements remain the same.
 
 ## Theme structure
 
