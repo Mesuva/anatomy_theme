@@ -42,13 +42,13 @@ There are additional automatic classes that are output on the wrapping div, you 
 as page-type-page, and one for the page template, such as page-template-full. The handle of the page and template is
 used in these classes. These are useful for targeting specific styling on both page types and templates.
 
- Another useful class that is automatically added to the HTML tag is ccm-toolbar-visible
- This can be used if you need to adjust your styles while the concrete5 toolbar is visible.
+Another useful class that is automatically added to the HTML tag is ccm-toolbar-visible
+This can be used if you need to adjust your styles while the concrete5 toolbar is visible.
 
- Also automatically added to the HTML tag is the class ccm-edit-mode, when the page is placed in edit mode.
+Also automatically added to the HTML tag is the class ccm-edit-mode, when the page is placed in edit mode.
 
- Final Step
+Final Step
 
- Open the js/scripts.js file and review its comments
+Open the js/scripts.js file and review its comments
 
 */
